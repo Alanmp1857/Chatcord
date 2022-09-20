@@ -15,7 +15,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 //Set static folder
-app.use(express.static(path.join(__dirname, "docs")));
+app.use(express.static(path.join(__dirname, "/docs")));
 
 const botName = "Chatcord Bot";
 
